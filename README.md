@@ -8,7 +8,7 @@ pip install numpy pandas matplotlib flask minisom
 python app.py
 ```
 
-After the server is running connect to 127.0.0.0:5000.
+After the server is running connect to 127.0.0.1:5000.
 You can upload your data in csv format as follows:
 
 ```
