@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summarize your dataset with SOM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>Summarize your dataset with SOM</h1>
+        <p> Self-Organizing Maps (SOMs) are a type of artificial neural network that is trained using unsupervised learning to produce a two-dimensional, discretized representation of the input space of the training samples. In essence, they help reduce the dimensionality of data and thus are highly useful in visualizing high-dimensional datasets.</p> 
+
+<p>The main advantage of SOMs is their ability to maintain the topological properties of the input space, meaning that they preserve the relationship of closeness between the instances of the original data. This feature makes them particularly useful in exploratory data analysis, providing insights into the patterns and correlations present in large datasets.</p> 
+
+<p>In summary, SOMs can be seen as a method of clustering and visualization that help in understanding and interpreting complex and high-dimensional data.</p>
+
+<h3>Test it now on your dataset</h3>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"><br><br>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
